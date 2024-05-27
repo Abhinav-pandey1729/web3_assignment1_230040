@@ -1,0 +1,34 @@
+Block Header: 
+{
+  "version": "1",
+  "previous_block_hash": "0000111100000000000000000000000000000000000000000000000000000000",
+  "merkle_root": "1cdabf03def802375ba4615e5641cd10c2ffa0fc4fa0f1154ce41ddda3ad64bf",
+  "timestamp": 1716755545,
+  "difficulty_target": "0000ffff00000000000000000000000000000000000000000000000000000000",
+  "nonce": 42209
+}
+
+Serialized Coinbase Transaction: 
+{
+  "txid": "unique_coinbase_txid",
+  "vin": [
+    {
+      "coinbase": "04ffff001d0104455468652054696d65732030332f4a616e2f32303233204368616e63656c6c6f72206f6e20626974636f696e2062756c6c",
+      "sequence": 4294967295
+    }
+  ],
+  "vout": [
+    {
+      "value": 50,
+      "scriptPubKey": "4104678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5fac"
+    }
+  ]
+}
+
+Transaction IDs: 
+unique_coinbase_txid
+unique_coinbase_txid
+unique_coinbase_txid
+unique_coinbase_txid
+unique_coinbase_txid
+unique_coinbase_txid
