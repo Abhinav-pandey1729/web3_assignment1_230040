@@ -1,0 +1,8 @@
+# web3_assignment1_230040
+
+in my block construction program I used Version which is a fixed value that indicates the version of the block structure or protocol being used.
+I also used the previous block hash which is the hash of the previous block in the blockchain, which ensures the integrity of the blockchain by linking each block to its predecessor.Then I added Merkle Root which is a single hash that represents all the transactions included in the block. It's derived from the hashes of all individual transactions, combined in a tree structure. additionaly, I used timestamp: which is the current Unix timestamp when the block is being created. It records the time at which the block was mined. another thing i used was difficulty target which is a value that represents the difficulty level of the mining process. Miners must find a hash that is below this target for the block to be valid and added to the blockchain. lastly I used nonce which is  is a variable that miners change in order to find a valid block hash that meets the difficulty target. It starts at 0 and is incremented with each hashing attempt.
+
+Efficiency:  The efficiency of the mining code depends on the algorithm's ability to quickly iterate through nonces and calculate hashes. The program's memory usage will depend on the number of transactions being processed and stored in memory at any given time. Implementing a more efficient hashing algorithm or utilizing hardware acceleration could improve mining speed. Caching the results of partial Merkle tree computations could reduce redundant calculations when only a few transactions change between mining attempts.
+
+refrences: W3schools, 3Blue 1Brown
